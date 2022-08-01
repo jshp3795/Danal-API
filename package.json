@@ -1,0 +1,29 @@
+{
+  "name": "danal-api",
+  "version": "1.0.0",
+  "description": "An API wrapper for Danal Self Verification.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshp3795/Danal-API.git"
+  },
+  "keywords": [
+    "danal",
+    "pass",
+    "verification",
+    "phone",
+    "api"
+  ],
+  "author": "jshp3795",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jshp3795/Danal-API/issues"
+  },
+  "homepage": "https://github.com/jshp3795/Danal-API#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}

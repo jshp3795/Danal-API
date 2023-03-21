@@ -123,7 +123,7 @@ export class danal {
                     "content-type": "application/x-www-form-urlencoded"
                 },
                 "method": "POST",
-                "body": "TID=" + this.tid + (this.isPassVerification ? "&otp=" + otp : "")
+                "body": "TID=" + this.tid + (this.isPassVerification ? "" : "&otp=" + otp)
             }).then(res => res.json());
 
             if (verificationRequest.RETURNCODE !== "0000") return {"success": false, "error": `[${verificationRequest.RETURNCODE}] ${verificationRequest.RETURNMSG}`};

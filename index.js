@@ -198,7 +198,7 @@ var danal = /** @class */ (function () {
                                     "content-type": "application/x-www-form-urlencoded"
                                 },
                                 "method": "POST",
-                                "body": "TID=" + this.tid + (this.isPassVerification ? "&otp=" + otp : "")
+                                "body": "TID=" + this.tid + (this.isPassVerification ? "" : "&otp=" + otp)
                             }).then(function (res) { return res.json(); })];
                     case 1:
                         verificationRequest = _a.sent();
